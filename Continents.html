@@ -35,15 +35,45 @@
                 Due to this, the number of continents varies; up to seven or as few as four geographical regions are commonly regarded as continents. 
                 Most English-speaking countries recognize seven regions as continents. 
                 In order from largest to smallest in area, these seven regions are: 
-                <img src="./Images/Asia.png" style="float: right;padding: 50px; height: 720px;width: 920px;">
+                <figure>
+                    <img id= "ContinentImage"  src="./Images/Asia.png" alt="Asia" style="float: right;padding: 50px;">
+                    <figcaption id="ContinentCaption" style="font-size: x-large; float: right;">  <strong> Asia </strong>  </figcaption>
+                </figure>
                 <ul style="font-size: x-large;">
-                    <li><button class="button"> Asia </button> </li>
-                    <li><button class="button"> Africa </button> </li>
-                    <li> North America </li>
-                    <li> South America </li>
-                    <li> Antarctica </li>
-                    <li> Europe </li>
-                    <li> Australia </li>
+                    <li><button class="button" onclick="document.getElementById('ContinentImage').src ='./Images/Asia.png';
+                        document.getElementById('ContinentImage').alt='Asia';
+                        document.getElementById('ContinentCaption').textContent ='Asia'" > 
+                        Asia </button> </li>
+                    <li><button class="button" 
+                        onclick="document.getElementById('ContinentImage').src ='./Images/Africa.png';
+                        document.getElementById('ContinentImage').alt='Africa';
+                        document.getElementById('ContinentCaption').textContent ='Africa'"> 
+                        Africa </button> </li>
+                    <li><button class="button" 
+                        onclick="document.getElementById('ContinentImage').src='./Images/North America.png';
+                        document.getElementById('ContinentImage').alt='North America';
+                        document.getElementById('ContinentCaption').textContent ='North America'"> 
+                        North America </button> </li>
+                    <li> <button class="button" 
+                        onclick="document.getElementById('ContinentImage').src='./Images/South America.png';
+                        document.getElementById('ContinentImage').alt='South America';
+                        document.getElementById('ContinentCaption').textContent ='South America'"> 
+                        South America</button> </li>
+                    <li> <button class="button" 
+                        onclick="document.getElementById('ContinentImage').src='./Images/Antarctica-foto.png';
+                        document.getElementById('ContinentImage').alt='Antarctica';
+                        document.getElementById('ContinentCaption').textContent ='Antarctica'"> 
+                        Antarctica </button> </li>
+                    <li> <button class="button" 
+                        onclick="document.getElementById('ContinentImage').src='./Images/Europe.png';
+                        document.getElementById('ContinentImage').alt='Europe';
+                        document.getElementById('ContinentCaption').textContent ='Europe'"> 
+                        Europe  </button> </li>
+                    <li> <button class="button" 
+                        onclick="document.getElementById('ContinentImage').src='./Images/Australia.png';
+                        document.getElementById('ContinentImage').alt='Australia';
+                        document.getElementById('ContinentCaption').textContent ='Australia'"> 
+                        Australia </button> </li>
                 </ul>
             </strong>
         </p>
