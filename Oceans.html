@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .button {
+            background-color: #ddd;
+            border: none;
+            color: black;
+            font-size: x-large;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 16px;
+}
+    </style>
+    <body style="background-color: #51a4e7;">
+        <h3>
+            <a href="index.html"> 
+                <img src="./Images/Earth globe.jpg" style="width: 2%; height: 2%;">
+            </a>
+            <a href="index.html"> 
+                Earth Page
+            </a>
+        </h3>
+        <h1 style="text-align: center;">
+            Oceans
+        </h1>
+        <p style="font-size: x-large ;">
+            <strong>
+                The ocean (also known as the sea or the world ocean) is a body of salt water that covers approximately 70.8% of the Earth and contains 97% of Earth's water.
+                The term ocean also refers to any of the large bodies of water into which the world ocean is conventionally divided.
+                Distinct names are used to identify five different areas of the ocean: Pacific (the largest), Atlantic, Indian, Southern, and Arctic (the smallest).
+                Seawater covers approximately 361,000,000 km2 (139,000,000 sq mi) of the planet. 
+                The Ocean is the primary component of the Earth's hydrosphere, and thus essential to life on Earth. 
+                The Ocean influences climate and weather patterns, the carbon cycle, and the water cycle by acting as a huge heat reservoir. 
+                The Ocean is customarily divided into five principal oceans – listed below in descending order of area and volume: 
+                <table style="font-size: x-large;">
+                    <tr>
+                        <td> Oceans </td>
+                        <td style="padding: 10px;"> Area </td>
+                        <td style="padding: 10px;"> Average Depth </td>
+                    </tr>
+                    <tr>
+                        <td> Pacific Ocean </td>
+                        <td  style="padding: 10px;"> 168,723,000 sq km</td>
+                        <td style="padding: 10px;"> 3,970 m</td>
+                    </tr>
+                    <tr>
+                        <td> Atlantic Ocean </td>
+                        <td  style="padding: 10px;"> 85,133,000 sq km</td>
+                        <td style="padding: 10px;"> 3,646 m</td>
+                    </tr>
+                    <tr>
+                        <td> Indian Ocean </td>
+                        <td style="padding: 10px;"> 70,560,000 sq km</td>
+                        <td style="padding: 10px;"> 3,741 m </td>
+                    </tr>
+                    <tr>
+                        <td> Southern Ocean </td>
+                        <td style="padding: 10px;"> 21,960,000 sq km</td>
+                        <td style="padding: 10px;"> 3,270 m </td>
+                    </tr>
+                    <tr>
+                        <td> Arctic Ocean </td>
+                        <td style="padding: 10px;"> 15,558,000 sq km</td>
+                        <td style="padding: 10px;"> 1,205 </td>
+                    </tr>
+                </table>
+
+                <figure>
+                    <img id= "OceanImage"  src="./Images/pacific-Ocean-Map.png" alt="Pacific Ocean" style="float: right;padding: 50px;">
+                    <figcaption id="OceanCaption" style="font-size: x-large; float: right;">  <strong> Pacific Ocean </strong>  </figcaption>
+                </figure>
+                <ul style="font-size: x-large;">
+                    <li><button class="button" onclick="document.getElementById('OceanImage').src ='./Images/pacific-Ocean-Map.png';
+                        document.getElementById('OceanImage').alt='Pacific Ocean';
+                        document.getElementById('OceanCaption').textContent ='Pacific Ocean'" > 
+                        Pacific Ocean </button> </li>
+                    <li><button class="button" onclick="document.getElementById('OceanImage').src ='./Images/atlantic-ocean-map.png';
+                        document.getElementById('OceanImage').alt='Atlantic Ocean';
+                        document.getElementById('OceanCaption').textContent ='Atlantic Ocean'" > 
+                        Atlantic Ocean </button> </li>
+                    <li><button class="button" onclick="document.getElementById('OceanImage').src ='./Images/indian-ocean-map.png';
+                        document.getElementById('OceanImage').alt='Indian Ocean';
+                        document.getElementById('OceanCaption').textContent ='Indian Ocean'" > 
+                        Indian Ocean </button> </li>
+                    <li><button class="button" onclick="document.getElementById('OceanImage').src ='./Images/southern-ocean-map.png';
+                        document.getElementById('OceanImage').alt='Southern Ocean';
+                        document.getElementById('OceanCaption').textContent ='Southern Ocean'" > 
+                        Southern Ocean </button> </li>
+                    <li><button class="button" onclick="document.getElementById('OceanImage').src ='./Images/arctic-ocean-map.png';
+                        document.getElementById('OceanImage').alt='Arctic Ocean';
+                        document.getElementById('OceanCaption').textContent ='Arctic Ocean'" > 
+                        Arctic Ocean </button> </li>
+                </ul>
+            </strong>
+        </p>
+    </body>
+</html>
