@@ -8,7 +8,11 @@
         text-align: center ;
         font-size: medium;
     }
-
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
     .column {
         float: left;
         width: 50%;
@@ -28,16 +32,22 @@
         <div class="row">
             <div class="column">
                 <figure>
-                    <img src="trench-marine.jpg" alt="Mariana Trench" style="height:400px;width: 720px; align-self: center;">
+                    <img src="./Images/trench-marine.jpg" alt="Mariana Trench" style="height:400px;width: 720px; align-self: center;">
                     <figcaption>  <strong> Mariana Trench </strong>  </figcaption>
                 </figure>
             </div>
             <div class="column">
                 <figure>
-                    <img src="Mount Everest.jpg" alt="Mount Everest" style="height:400px;width: 720px;">
+                    <img src="./Images/Mount Everest.jpg" alt="Mount Everest" style="height:400px;width: 720px;">
                     <figcaption> <strong> Mount Everest </strong>  </figcaption>
                 </figure>
             </div>
         </div>
+
+    <p style="font-size: xx-large;">
+        <a href="Continents.html"> 
+            Continents Page
+        </a>
+    </p>
 </body>
 </html>
