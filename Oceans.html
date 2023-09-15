@@ -15,6 +15,7 @@
             border-radius: 16px;
 }
     </style>
+    <script src="Oceans.js"></script> 
     <body style="background-color: #51a4e7;">
         <h3>
             <a href="index.html"> 
@@ -70,29 +71,19 @@
                 </table>
 
                 <figure>
-                    <img id= "OceanImage"  src="./Images/pacific-Ocean-Map.png" alt="Pacific Ocean" style="float: right;padding: 50px;">
+                    <img id= "OceanImage"  src="./Images/pacific-ocean-map.png" alt="Pacific Ocean" style="float: right;padding: 50px;">
                     <figcaption id="OceanCaption" style="font-size: x-large; float: right;">  <strong> Pacific Ocean </strong>  </figcaption>
                 </figure>
                 <ul style="font-size: x-large;">
-                    <li><button class="button" onclick="document.getElementById('OceanImage').src ='./Images/pacific-Ocean-Map.png';
-                        document.getElementById('OceanImage').alt='Pacific Ocean';
-                        document.getElementById('OceanCaption').textContent ='Pacific Ocean'" > 
+                    <li><button class="button" id="Pacific"> 
                         Pacific Ocean </button> </li>
-                    <li><button class="button" onclick="document.getElementById('OceanImage').src ='./Images/atlantic-ocean-map.png';
-                        document.getElementById('OceanImage').alt='Atlantic Ocean';
-                        document.getElementById('OceanCaption').textContent ='Atlantic Ocean'" > 
+                    <li><button  class="button" id="Atlantic"> 
                         Atlantic Ocean </button> </li>
-                    <li><button class="button" onclick="document.getElementById('OceanImage').src ='./Images/indian-ocean-map.png';
-                        document.getElementById('OceanImage').alt='Indian Ocean';
-                        document.getElementById('OceanCaption').textContent ='Indian Ocean'" > 
+                    <li><button class="button" id="Indian"> 
                         Indian Ocean </button> </li>
-                    <li><button class="button" onclick="document.getElementById('OceanImage').src ='./Images/southern-ocean-map.png';
-                        document.getElementById('OceanImage').alt='Southern Ocean';
-                        document.getElementById('OceanCaption').textContent ='Southern Ocean'" > 
+                    <li><button class="button" id="Southern" > 
                         Southern Ocean </button> </li>
-                    <li><button class="button" onclick="document.getElementById('OceanImage').src ='./Images/arctic-ocean-map.png';
-                        document.getElementById('OceanImage').alt='Arctic Ocean';
-                        document.getElementById('OceanCaption').textContent ='Arctic Ocean'" > 
+                    <li><button class="button" id="Arctic" > 
                         Arctic Ocean </button> </li>
                 </ul>
             </strong>
